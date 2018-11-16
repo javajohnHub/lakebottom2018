@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server/bin/www",
-    "back": "node ./server/bin/www"
+    "start": "cd .. && ng build --prod && cd server && node ./bin/www",
+    "back": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
