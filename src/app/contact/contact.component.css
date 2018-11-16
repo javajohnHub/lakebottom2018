@@ -1,0 +1,21 @@
+#contact{
+  padding:2rem 0;
+  color: #000;
+ text-align: center;
+  overflow: hidden;
+  font-size: larger;
+}
+
+#contact a{
+  color: #5b82b1;
+
+}
+
+#contact a:hover{
+  color: #8bae5f;
+
+
+}
+#contact .fa{
+  padding: 0 5px;
+}

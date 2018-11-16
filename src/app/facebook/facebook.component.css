@@ -1,0 +1,26 @@
+.fb-page, .twitter-timeline{
+  margin-bottom: 100px;
+  min-width: 380px;
+
+}
+.row{
+  padding-top: 50px;
+  padding-left: 0;
+  padding-bottom: 0;
+
+}
+.fb{
+  min-width: 380px;
+  padding-left:0;
+  padding-bottom:50px;
+}
+.container{
+  background-color: #81a850;
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .fb-page {
+    margin-bottom: 100px; }
+}

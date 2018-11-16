@@ -1,0 +1,14 @@
+#why {
+  padding:5rem 0;
+  background-color: #c3da9d;
+  color: #fff;
+}
+
+#why .fa {
+  color: #236d9a;
+  padding:15px 0;
+  text-shadow: 1px 1px 2px black;
+}
+#why .fa:hover {
+  color: #fff;
+}

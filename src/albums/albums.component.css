@@ -1,0 +1,37 @@
+#albums{
+  padding:5rem 0;
+  background-color: #1e6c9c;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+
+  font-size: larger;
+  text-shadow: 1px 1px 1px #000;
+  font-weight: bolder;
+
+}
+.card{
+  box-shadow: 5px 5px 10px #282828;
+
+}
+
+.card-header, .card-footer{
+  background-color: transparent;
+}
+
+#albums img{
+  border-radius: 4px;
+  box-shadow: 5px 5px 20px black;
+}
+
+#albums p{
+  font-size: larger;
+  padding: 10px;
+}
+ a{
+   color: #fff;
+   text-decoration: none;
+ }
+a:hover{
+  color: #b7d38b;
+}
