@@ -26,6 +26,22 @@ links;
 						command: (event: any) => {
 							this.el.model[0].expanded = false;
 						}
+          },
+          {
+						label: 'Albums',
+						routerLink: ['/#albums'],
+						routerLinkActiveOptions: { exact: true },
+						command: (event: any) => {
+							this.el.model[0].expanded = false;
+						}
+          },
+          {
+						label: 'Social',
+						routerLink: ['/#social'],
+						routerLinkActiveOptions: { exact: true },
+						command: (event: any) => {
+							this.el.model[0].expanded = false;
+						}
           }
         ]
       }

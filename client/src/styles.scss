@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+html,body{
+  height:100%;
+  font-family: 'Alegreya Sans', sans-serif;
+
+}
+.btn{
+  transition: all 0.3s ease-in-out;
+}
+
+@media(max-width:768px){
+  #header{
+    text-align:center;
+  }
+  #header img{
+    margin: 0 auto;
+  }
+  #social {
+    text-align: center;
+  }
+  #social hr, #who hr{
+    margin: 8% auto;
+  }
+  #team{
+    text-align: center;
+  }
+  #team img{
+    margin-top: 15%;
+  }
+  #footer{
+    text-align: center;
+  }
+}
+
+.row{
+  border-radius: 4px;
+}
+
+.loading{
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 25px);
+  margin: -50px 0px 0px -50px;
+  color: #1e6c9c;
+}
