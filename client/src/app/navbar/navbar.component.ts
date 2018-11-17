@@ -21,7 +21,7 @@ links;
 				items: [
 					{
 						label: 'Home',
-						routerLink: ['/#'],
+						routerLink: ['/'],
 						routerLinkActiveOptions: { exact: true },
 						command: (event: any) => {
 							this.el.model[0].expanded = false;
