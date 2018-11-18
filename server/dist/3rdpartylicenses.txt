@@ -312,13 +312,13 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 END OF TERMS AND CONDITIONS
 
 
+@angular/animations
+MIT
+
 @angular/common
 MIT
 
 @angular/platform-browser
-MIT
-
-@angular/animations
 MIT
 
 @angular/router
